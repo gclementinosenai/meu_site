@@ -1,0 +1,134 @@
+/*Formatação da minha página*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgba(4, 6, 128, 0.858);
+    color:rgb(13, 161, 161);
+}
+
+.cabecalho{
+    background-color: rgb(64, 76, 241);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ff0404;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color:darkslategray
+}
+
+.menu a{
+    color:whitesmoke;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.6s ease;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 10px;
+}
+
+.titulo-secao{
+    font-size: 32px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.subtitulo{
+    font-size: 30px;
+    text-align: center;
+}
+
+.grade-filme{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+
+}
+
+.card-filme{
+    background-color:rgb(22, 0, 110);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px #826ffd;
+    display: flex;
+    flex-direction: column;
+}
+.card-filme:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10px #11016d;
+}
+
+.poster{
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.conteudo-filme{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.genero{
+    font-size: 12px;
+    color: rgb(153, 115, 241);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 4px;
+}
+
+.nome-filme{
+   font-size: 25px; 
+   margin: 5px 0 10px 0;
+
+}
+
+.sinopse{
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 1;
+    flex-grow: 1;
+
+}
+
+.sessoes{
+    font-size: 15px;
+    margin: 15px;
+}
+
+.horário{
+    display: inline-block;
+    background-color: #6200ff;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left: 4px;
+    color: black;
+}
+
+.botao-comprar{
+    display: block; 
+    text-align: center;
+    background-color: #7848f0;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.botao-comprar:hover{
+    background-color: rgb(69, 83, 233);
+}
