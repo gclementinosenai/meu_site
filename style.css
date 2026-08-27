@@ -24,7 +24,7 @@ body{
 .logo{
     font-size: 30px;
     font-weight: bold;
-    color:darkslategray
+    color:rgb(17, 0, 115)
 }
 
 .menu a{
@@ -36,7 +36,7 @@ body{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1200px auto;
     margin: 30px auto;
     padding: 0 10px;
 }
@@ -132,3 +132,156 @@ body{
 .botao-comprar:hover{
     background-color: rgb(69, 83, 233);
 }
+
+.area_inscricao{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.coluna_form{
+    flex: 1;
+    min-width: 320px;
+    background-color: #11016d;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px #7848f0;
+}
+
+.coluna-midia{
+    flex: 1;
+    min-width: 320px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.coluna_form label{
+    font-size: 14px;
+    font-weight: bold;
+    color: #8a7cf7;
+}
+.coluna_form input[type= "text"],
+.coluna_form input[type= "password"],
+.coluna_form input[type= "email"],
+.coluna_form input[type= "date"],
+.coluna_form select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: #210280;
+    border-radius: 10px;
+    color: #c6c0f3;
+    font-size: 14px;
+}
+
+.btn-enviar{
+    background-color:royalblue;
+    color: rgb(9, 2, 89);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-enviar:hover{
+    background-color: #4628ed;
+}
+
+.btn-limpar{
+    background-color:royalblue;
+    color: rgb(9, 2, 89);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.btn-limpar:hover{
+    background-color: #4628ed;
+}
+
+.container-em-breve{
+    max-width: 1200px auto;
+    margin: 30px auto;
+    padding: 0 10px;
+}
+
+.grade-filmes-em-breve{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+
+}
+
+.card-filme-em-breve{
+    background-color:rgb(22, 0, 110);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px #826ffd;
+    display: flex;
+    flex-direction: column;
+}
+.card-filme-em-breve:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10px #11016d;
+}
+
+.poster-em-breve{
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.conteudo-filme-em-breve{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.genero-em-breve{
+    font-size: 12px;
+    color: rgb(153, 115, 241);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 4px;
+}
+
+.nome-filme-em-breve{
+   font-size: 25px; 
+   margin: 5px 0 10px 0;
+
+}
+
+.sinopse-em-breve{
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 1;
+    flex-grow: 1;
+
+}
+
+.container-preco{
+    max-width: 1500px;
+    margin: 5px auto;
+    font-size: 20px;
+    background-color: #11016d;
+    padding: 0 5px;
+}
+
+.cabecalho-preco{
+    font-size: 20px;
+    background-color: #4628ed;
+    color: #110265;
+    padding: 15px;
+}
+
+
+.preco{
+   text-align: center;
+   padding: 15px; 
+}
+
