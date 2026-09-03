@@ -18,7 +18,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #ff0404;
+    border-bottom: 2px solid #6404ff;
 }
 
 .logo{
@@ -285,3 +285,30 @@ body{
    padding: 15px; 
 }
 
+.tabela-cardapio{
+    width: 80%;
+    border-radius: 10px;
+}
+
+.tabela-preco{
+    width: 100%;
+    background-color: #11016d;
+    text-align: left;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.tabela-preco th{
+    background-color: #0b0142;
+    color:rgb(243, 243, 245);
+    padding: 16px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(13, 6, 139);
+}
+.tabela-preco{
+    padding: 16px 20px;
+    border-bottom: 1px solid rebeccapurple;
+    color: aliceblue;
+
+}
